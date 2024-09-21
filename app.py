@@ -144,6 +144,20 @@ def a_star_search(graph, start, goal, heuristics):
 start_city = 'Arad'
 goal_city = 'Bucharest'
 
+#BFS tests
+bfs_path = bfs(romania_map, start_city, goal_city)
+print(f'BFS search to Bucharest path: {bfs_path}\n')
+
+#DFS tests
+dfs_path = dfs(romania_map, start_city, goal_city)
+print(f'DFS search to Bucharest path: {dfs_path}\n')
+
+#Best first tests
+best_first_path = best_first_search(romania_map, start_city, goal_city, heuristic_bucharest)
+print(f'Best first search to Bucharest path: {best_first_path}\n')
+
+
+#a  star tests and heuristics
 path = a_star_search(romania_map, start_city, goal_city, heuristic_bucharest)
 print("A* search (to Bucharest) path:", path)
 
