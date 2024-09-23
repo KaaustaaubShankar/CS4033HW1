@@ -1,0 +1,27 @@
+Search Algorithm Results
+========================
+Average BFS time: 3.449550000003687e-06 seconds
+BFS path: ['Arad', 'Sibiu', 'Fagaras', 'Bucharest']
+
+Average DFS time: 1.8079200000020723e-06 seconds
+DFS path: ['Arad', 'Zerind', 'Oradea', 'Sibiu', 'Fagaras', 'Bucharest']
+
+Average Best First time: 2.751259999999034e-06 seconds
+Best First path: ['Arad', 'Sibiu', 'Fagaras', 'Bucharest']
+
+Average A* time: 5.859989999999482e-06 seconds
+A* path: ['Arad', 'Sibiu', 'Rimnicu Vilcea', 'Pitesti', 'Bucharest']
+
+Average A* (Heuristic with Bucharest) time: 1.5027089999996024e-05 seconds
+A* (Heuristic with Bucharest) path: ['Arad', 'Sibiu', 'Rimnicu Vilcea', 'Craiova']
+
+Average A* (Triangle Heuristic) time: 1.953542000000197e-05 seconds
+A* (Triangle Heuristic) path: ['Arad', 'Sibiu', 'Rimnicu Vilcea', 'Craiova']
+
+Nodes Searched Per Search Function
+BFS: 4 nodes searched
+DFS: 6 nodes searched
+Best First: 4 nodes searched
+A Star: 5 nodes searched
+A Star B: 4 nodes searched
+A Star T: 4 nodes searched
