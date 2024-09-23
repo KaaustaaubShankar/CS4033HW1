@@ -163,7 +163,7 @@ print("A* search (to Bucharest) path:", path)
 
 goal_city = 'Craiova'
 path = a_star_search(romania_map, start_city, goal_city, lambda city: heuristic_with_bucharest(city, goal_city))
-print("A* search (triangle heuristic) path:", path)
+print("A* search (heuristic with bucharest heuristic) path:", path)
 
 path = a_star_search(romania_map, start_city, goal_city, lambda city: heuristic_with_common_neighbor(city, goal_city,romania_map))
 print("A* search (triangle heuristic) path:", path)
